@@ -1,10 +1,12 @@
 **Problem Question:**
 
 **German Credit Dataset** 
+
 Given a CSV data file as represented by the sample file GermanCredit.csv load it into a Pandas DataFrame, and perform the following tasks on it.
 Important: Your code should be applicable to any extension of this sample, so make sure you
 don't hardcode anything that applies only to the values in this sample.
 **Preprocessing**
+
 1. Drop the 3 columns that contribute the least to the dataset. These would be the columns with
 the highest number of non-zero 'none' values. Break ties by going left to right in columns. (Your code
 should be generalizable to drop n columns, but for the rest of the analysis, you can call your code
