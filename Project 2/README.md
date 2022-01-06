@@ -5,6 +5,7 @@
 Given a CSV data file as represented by the sample file GermanCredit.csv load it into a Pandas DataFrame, and perform the following tasks on it.
 Important: Your code should be applicable to any extension of this sample, so make sure you
 don't hardcode anything that applies only to the values in this sample.
+
 **Preprocessing**
 
 1. Drop the 3 columns that contribute the least to the dataset. These would be the columns with
@@ -21,7 +22,9 @@ and 'High' respectively. (Yes, the last two are both 'High').
 5. Change class column values from 'good' to '1' and 'bad' to '0'
 6. Change the employment column value 'unemployed' to 'Unemployed', and for the others,
 change to 'Amateur', 'Professional', 'Experienced' and 'Expert', depending on year range.
+
 **Analysis**
+
 For the following tasks, do preprocessing or changing of data types in the data frame as required.
 1. Often we need to find correlations between categorical attributes, i.e. attributes that have
 values that fall in one of several categories, such as "yes"/"no" for attr1, or "low","medium","high" for
@@ -40,7 +43,9 @@ no need for rounding.
 Your code should print:
  Most common checking status: ...
  Most common savings status: ...
+
 **Visualization** 
+
 1. Plot subplots of two histograms: one with savings_status on the x-axis and personal_status as
 different colors, and another with checking_status on the x-axis and personal_status as different
 colors.
