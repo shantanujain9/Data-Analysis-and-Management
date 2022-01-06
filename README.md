@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a class project, where I used python programming to analyze Excel data tables. My program processes, corrects and visualizes these datasets using Panda, Numpy libraries. 
+This is a class project, where I used python programming to analyze Excel data tables. My program processes, corrects and visualizes excel datasets using Panda and Numpy libraries. 
 In this class, I learnt how to manage and analyze data using Pandas and Numpy library. I also learnt to to use mySQL database.
 
 #### Each project folder also contains a "README" which describes the Questionnaire of the project. 
